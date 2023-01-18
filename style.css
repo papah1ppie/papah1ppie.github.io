@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@font-face {
+  	font-family: 'Terminus (TTF)';
+  	src: URL('/terminus.ttf') format('truetype');
+}
+
+html, body {
+		height: 100%; font-family: "Open Sans";
+}
+
+body { background: #000000; }
+
+div.header {
+		position: fixed;
+    font: 15pt "Terminus (TTF)";
+		src: url("./terminus.ttf");
+		right:0;
+		left: 0;
+		top:0;
+		color: #fff;
+		background: #101010;
+		padding-left: 0.5em;
+		padding-bottom: 0em;
+		padding-top: 0em;
+		margin: 0em;
+		text-align: left;
+		border-bottom: solid 1px #202020;
+		}
+
+.header a {
+		color: #B3B3B3;
+		padding-top: 0em;
+		padding-bottom: 0em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+		border-left: solid 1px #202020;
+		}
+
+.header :last-child {
+		border-right: solid 1px #202020;
+		padding-bottom: 0em;
+}
+
+
+a {
+		color: white; text-decoration: none;
+		}
+
+a.index {
+		color: white;
+		border: 0;
+		}
+
+a.home {
+		border: 0;
+		}
+
+a.active {
+		color: white;
+		}
+
+a.secret {
+		color: #B3B3B3;
+}
+
+
+div.main {
+		background-color: #141414;
+		color: #B3B3B3;
+		font: 12pt "Open Sans";
+		padding: 1em;
+		padding-bottom: 2em;
+		margin: 0 12%;
+		border-right: solid 1px #202020;
+		border-left: solid 1px #202020;
+		height: inherit;
+		}
+
+.main a {
+		color: white;
+		}
+
+.main img {
+		border: solid 2px #202020;
+		width: 80%;
+		display: table-cell;
+		position: center;
+		}
+
+
+.splitter {
+		border-bottom: solid 1px #202020;
+		margin-left: -1em;
+		margin-right: -1em;
+}
+
+.mini-splitter {
+		border-bottom: solid 1px #202020;
+		margin-left: -0.1em;
+		margin-right: -0.1em;
+}
+
+
+.imgtext {
+		background: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		font: 8pt "Open Sans";
+		color: #B3B3B3;
+		background: #101010;
+		padding: 0em;
+		text-align: left;
+		border-top: solid 1px #202020;
+		width: 100%;
+}
+
+
+.blink {
+	  display: inline;
+	  animation: blinker 1s step-start infinite;
+	}
+@keyframes blinker {
+		50% {
+				opacity: 0;
+				}
+}
+
+
+.cont {
+    position: relative;
+    text-align: center;
+}
+
+
+footer {
+		position: fixed;
+		font: 15pt "Terminus (TTF)";
+		right:0;
+		left: 0;
+		bottom:0;
+		color: #B3B3B3;
+		background: #101010;
+		padding: 0em;
+		padding-left: 0.5em;
+		text-align: left;
+		border-top: solid 1px #202020;
+		/*margin:-0.5em;*/
+}
